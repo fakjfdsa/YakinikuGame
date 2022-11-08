@@ -613,3 +613,27 @@ System memory in use after: 57.2 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1628.
 Total: 2.457700 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.121300 ms MarkObjects: 1.961400 ms  DeleteObjects: 0.023000 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 1.505900 ms (FindLiveObjects: 0.130900 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.329900 ms  DeleteObjects: 0.012500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

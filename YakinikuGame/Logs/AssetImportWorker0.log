@@ -88,3 +88,70 @@ Received Import Request.
 Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cf15cb5a1efb61715612a60a9a21ba') in 0.009290 seconds
   Import took 0.011624 seconds .
 
+========================================================================
+Received Prepare
+The file 'UserSettings/EditorUserSettings.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.000811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1320 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1822.
+Total: 1.576800 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.343700 ms  DeleteObjects: 0.059900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 652.521689 seconds.
+  path: Assets/Yamamoto/FoodDataBase.asset
+  artifactKey: Guid(515dc846071af584390f2f8494d619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/FoodDataBase.asset using Guid(515dc846071af584390f2f8494d619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8489a44ab500b01d7f461872020db33') in 0.021931 seconds
+  Import took 0.024288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.065429 seconds.
+  path: Assets/Yamamoto/Scene
+  artifactKey: Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene using Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad574580860685ac7578ba5262a56c2') in 0.006669 seconds
+  Import took 0.008764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006274 seconds.
+  path: Assets/Yamamoto/Scene
+  artifactKey: Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene using Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad574580860685ac7578ba5262a56c2') in 0.002830 seconds
+  Import took 0.005127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830239 seconds.
+  path: Assets/Yamamoto/Scene/Test2.unity
+  artifactKey: Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene/Test2.unity using Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8eeb99a9992b0bbf6919b05487e8cf') in 0.005979 seconds
+  Import took 0.008095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.947114 seconds.
+  path: Assets/Yamamoto/Scene/Test.unity
+  artifactKey: Guid(5f1e47e2ccac3894e96867ec27a818a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene/Test.unity using Guid(5f1e47e2ccac3894e96867ec27a818a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ce5f476af3ee29de88b2bd10c2b93d') in 0.005880 seconds
+  Import took 0.008037 seconds .
+

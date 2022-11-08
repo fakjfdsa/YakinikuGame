@@ -235,6 +235,7 @@ Received Import Request.
   artifactKey: Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Yamamoto/Scene/Test2.unity using Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8eeb99a9992b0bbf6919b05487e8cf') in 0.006098 seconds
   Import took 0.009173 seconds .
+<<<<<<< HEAD
 
 ========================================================================
 Received Prepare
@@ -258,5 +259,7 @@ System memory in use after: 142.1 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1802.
 Total: 1.806800 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.543400 ms  DeleteObjects: 0.058600 ms)
+=======
+>>>>>>> Omoto
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -172,3 +172,67 @@ System memory in use after: 146.7 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1867.
 Total: 1.878700 ms (FindLiveObjects: 0.317300 ms CreateObjectMapping: 0.085100 ms MarkObjects: 1.415900 ms  DeleteObjects: 0.059300 ms)
 
+========================================================================
+Received Prepare
+The file 'UserSettings/EditorUserSettings.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.000750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1112 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.6 MB.
+System memory in use after: 142.7 MB.
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1802.
+Total: 2.520300 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.074700 ms MarkObjects: 2.152800 ms  DeleteObjects: 0.116400 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1802.
+Total: 2.093500 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.077400 ms MarkObjects: 1.726900 ms  DeleteObjects: 0.061600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2283.686901 seconds.
+  path: Assets/Yamamoto/FoodDataBase.asset
+  artifactKey: Guid(515dc846071af584390f2f8494d619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/FoodDataBase.asset using Guid(515dc846071af584390f2f8494d619cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8489a44ab500b01d7f461872020db33') in 0.018334 seconds
+  Import took 0.020725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160743 seconds.
+  path: Assets/Yamamoto/Scene
+  artifactKey: Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene using Guid(ea327c932d89b1040b7e3970a8c610d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad574580860685ac7578ba5262a56c2') in 0.005535 seconds
+  Import took 0.008494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.831457 seconds.
+  path: Assets/Yamamoto/Scene/Test2.unity
+  artifactKey: Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yamamoto/Scene/Test2.unity using Guid(ec33b106ac42ddf43935207911f3e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8eeb99a9992b0bbf6919b05487e8cf') in 0.006098 seconds
+  Import took 0.009173 seconds .
+

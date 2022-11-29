@@ -43,16 +43,13 @@ public class TileManager : MonoBehaviour
         switch (tileNum[x, z])
         {
             case 0:
-                if (tile[x, z].transform.childCount > 0)
-                {
-                    Destroy(tile[x, z].transform.GetChild(0).gameObject);
-                }
+                tile[x, z].transform.GetChild(0).GetComponent<Renderer>().material.color = new Color(0, 0, 0, 1);
                 break;
             case 1:
-                Instantiate(film[0], tile[x, z].transform.position, Quaternion.identity, tile[x, z].transform);
+                tile[x, z].transform.GetChild(0).GetComponent<Renderer>().material.color = new Color(1, 0, 0, 0.3f);
                 break;
             case 2:
-                Instantiate(film[1], tile[x, z].transform.position, Quaternion.identity, tile[x, z].transform);
+                tile[x, z].transform.GetChild(0).GetComponent<Renderer>().material.color = new Color(0, 0, 1, 0.3f);
                 break;
         }
     }
@@ -63,6 +60,10 @@ public class TileManager : MonoBehaviour
         SetFilm(x, z);
     }
 
+    public int GetTileNum(int x, int z)
+    {
+        return tileNum[x, z];
+    }
 
     public GameObject[,] GetTile()
     {

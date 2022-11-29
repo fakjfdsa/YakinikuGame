@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 4198741384499797482}
   - component: {fileID: 4344296147801815126}
   - component: {fileID: 5576208346252330873}
-  - component: {fileID: 830062532690207191}
   m_Layer: 0
   m_Name: Meat
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &830062532690207191
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154549857564465227}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &692262958261465736
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +96,7 @@ GameObject:
   - component: {fileID: 692262958261465741}
   m_Layer: 0
   m_Name: Meat
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,6 +195,7 @@ MonoBehaviour:
   goodColor: {r: 0.5019608, g: 0.22745098, b: 0.11372549, a: 1}
   goodTime: 3
   blackTime: 4
+  eatPoint: 100
   fire: 0
   downSide: 0
   turn: 0
